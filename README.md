@@ -8,20 +8,20 @@ A growing e-commerce company that has 9 departments throughout its company organ
 
 - employee_id : Unique ID for Employees.
 - department : Department where Employees (categorical).
-- region : Region of employment (categorical)
-- education : Level of education of the Employees (categorical)
--  gender : Gender of Employees (categorical)
--  job_level : Job Level in current position (categorical)
--  recruitment_channel : Employee recruitment sources (categorical)
--  no_of_trainings : Number of trainings attended (numeric)
--  age : Employee Age (numeric)
--  previous_year_rating : Previous year's employee rating (numeric)
--  length_of_service : Employee working time (numeric)
--  awards_won? : Employee label have received an award or not (categorical)
--  avg_training_score : Current training average (numeric)
--  satisfaction_score : Value of employee satisfaction with the company (numeric)
--  engagement_score : Average value of employees feeling attached to the Company (numeric)
--  is_promoted : Recommended for promotion (categorical)
+- region : Region of employment (categorical).
+- education : Level of education of the Employees (categorical).
+- gender : Gender of Employees (categorical).
+- job_level : Job Level in current position (categorical).
+- recruitment_channel : Employee recruitment sources (categorical).
+- no_of_trainings : Number of trainings attended (numeric).
+- age : Employee Age (numeric).
+- previous_year_rating : Previous year's employee rating (numeric).
+- length_of_service : Employee working time (numeric).
+- awards_won? : Employee label have received an award or not (categorical).
+- avg_training_score : Current training average (numeric).
+- satisfaction_score : Value of employee satisfaction with the company (numeric).
+- engagement_score : Average value of employees feeling attached to the Company (numeric).
+- is_promoted : Recommended for promotion (categorical)
 
 ## Data Checking & Pre-Processing
 
