@@ -6,8 +6,8 @@ A growing e-commerce company that has 9 departments throughout its company organ
 
 ## The explanation of every variables:
 
-- employee_id : Unique ID for Employees
-- department : Department where Employees (categorical)
+- employee_id : Unique ID for Employees.
+- department : Department where Employees (categorical).
 - region : Region of employment (categorical)
 - education : Level of education of the Employees (categorical)
 -  gender : Gender of Employees (categorical)
