@@ -107,7 +107,7 @@ y = cleaned_dataset['label']
 x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 ```
 
-SMOTE Oversampling Data Training
+SMOTE oversampling train data
 ```sh
 from imblearn.over_sampling import SMOTE
 smote=SMOTE()
@@ -123,22 +123,22 @@ print('The percentage of Promoted in the Testing data is:')
 print(y_test.value_counts(normalize=True))
 ```
 
-Modelling using Logistic Regression Algorithm.
+Modelling using Logistic Regression algorithm.
 ```sh
 log_model=LogisticRegression().fit(x_train, y_train)
 ```
 
-Modelling using Random Forest Classifier Algorithm.
+Modelling using Random Forest Classifier algorithm.
 ```sh
 rdf_model=RandomForestClassifier().fit(x_train, y_train)
 ```
 
-Modelling using Gradient Boosting Classifier Algorithm.
+Modelling using Gradient Boosting Classifier algorithm.
 ```sh
 gbt_model=GradientBoostingClassifier().fit(x_train, y_train)
 ```
 
-Testing the performance of the model based on Classification Report.
+Testing the performance of the model based on classification report.
 
 ```sh
 y_train_pred = '#name_of_variable_model'.predict(x_train)
