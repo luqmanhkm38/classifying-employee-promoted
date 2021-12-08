@@ -23,6 +23,24 @@ A growing e-commerce company that has 9 departments throughout its company organ
 - engagement_score : Average value of employees feeling attached to the Company (numeric).
 - is_promoted : Recommended for promotion (categorical).
 
+## Import the python module/library to be use and create variable for load dataset.
+
+```sh
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.metrics import confusion_matrix, classification_report, accuracy_score
+
+dataset=pd.read_csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vQlM2tat2DbRFUyldK-ZBFE2BIUdEaQpnXShc6uRvzlOes2Sevze-KEPpFd3-I4aB-lp6G5eVrHzUXK/pub?gid=466965807&single=true&output=csv')
+```
+
+
 ## Data Checking & Pre-Processing
 
 Count data from each column with null values.
