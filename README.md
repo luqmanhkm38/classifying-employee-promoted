@@ -2,7 +2,7 @@
 
 ## Foreground
 
-A growing e-commerce company that has 9 departments throughout its company organization, has 78,298 employees divided into 3 levels, namely Senior, Middle and Junior. One of the problems faced in the company is that the company does not have specific requirements and certain patterns to identify which employees are suitable for promotion at the right time. So the company is in need of help to identify the factors in determining the promotion of an employee by considering the Promotion Cycle or the company's Promotion Cycle.
+A growing e-commerce company that has 9 departments throughout its company organization, has 78,298 employees divided into 3 levels, namely Senior, Middle and Junior. One of the problems faced in the company is that the company does not have specific requirements and certain patterns to identify which employees are suitable for promotion at the right time. So the company is in need of help to identify the factors in determining the promotion of an employee by considering the company's Promotion Cycle.
 
 ## The explanation of every variables:
 
