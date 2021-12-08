@@ -21,7 +21,7 @@ A growing e-commerce company that has 9 departments throughout its company organ
 - avg_training_score : Current training average (numeric).
 - satisfaction_score : Value of employee satisfaction with the company (numeric).
 - engagement_score : Average value of employees feeling attached to the Company (numeric).
-- is_promoted : Recommended for promotion (categorical)
+- is_promoted : Recommended for promotion (categorical).
 
 ## Data Checking & Pre-Processing
 
