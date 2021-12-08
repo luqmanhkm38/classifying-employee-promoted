@@ -76,13 +76,13 @@ plt.show()
 ```
 
 ## Bulding Machine Learning Model
-Data preparation by encoding data and sharing train and test data for model building.
+Data preparation by encoding data.
 ```sh
 for column in cleaned_dataset.columns:
     if cleaned_dataset[column].dtype == np.number: continue
     cleaned_dataset[column] = LabelEncoder().fit_transform(cleaned_dataset[column])
 ```
-Splitting Dataset.
+Splitting dataset for train and test data.
 ```sh
 X = cleaned_dataset.drop('label', axis=1)
 y = cleaned_dataset['label']
@@ -110,12 +110,12 @@ Modelling using Logistic Regression Algorithm.
 log_model=LogisticRegression().fit(x_train, y_train)
 ```
 
-Modelling using the Random Forest Classifier Algorithm.
+Modelling using Random Forest Classifier Algorithm.
 ```sh
 rdf_model=RandomForestClassifier().fit(x_train, y_train)
 ```
 
-Modelling using the Gradient Boosting Classifier Algorithm.
+Modelling using Gradient Boosting Classifier Algorithm.
 ```sh
 gbt_model=GradientBoostingClassifier().fit(x_train, y_train)
 ```
